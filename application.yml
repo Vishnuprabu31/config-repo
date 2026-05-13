@@ -1,0 +1,17 @@
+app:
+  company: ABC Technologies
+
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
